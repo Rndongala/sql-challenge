@@ -1,7 +1,7 @@
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
-#1 the details of_each employees: fiist_name, last_name, sex and_salary
+#1 the details of_each employees: first_name, last_name, sex and_salary
 
 select e.emp_no,e.last_name,e.first_name,e.sex,s.salary
 from employees e
